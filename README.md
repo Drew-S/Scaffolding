@@ -17,34 +17,42 @@ or by clicking the edit button in the scaffolding panel.
 
 When you click on your scaffolding name in the list it is created in the current project root directory.
 
-```json
+```cson
 [
   {
-    "name": "Scaffolding",
-    "root": [
+    name: "Scaffolding"
+    root: [
       {
-        "type": "dir",
-        "name": "folder",
-        "root": [
+        type: "dir"
+        name: "folder"
+        root: [
           {
-            "type": "file",
-            "name": "file.txt"
+            type: "file"
+            name: "file.txt"
           }
         ]
-      },
+      }
       {
-        "type": "dir",
-        "name": "empty"
-      },
+        type: "dir"
+        name: "empty"
+      }
       {
-        "type": "file",
-        "name": "file_with_stuff.txt",
-        "contents": "stuff"
+        type: "file"
+        name: "file_with_stuff.txt"
+        contents: "stuff"
+      }
+      {
+        type: "file"
+        name: "file_with_multi-line_stuff.txt"
+        contents: '''
+          stuff
+          more stuff
+        '''
       }
     ]
-  },
+  }
   {
-    "name": "item 2",
+    name: "item 2"
     ...
   }
 ]
@@ -59,7 +67,3 @@ Toggle scaffolding panel:
 ```
 "ctrl-alt-o": "scaffolding:toggle"
 ```
-
-### project
-
-at [https://github.com/Drew-S/Scaffolding](https://github.com/Drew-S/Scaffolding)
