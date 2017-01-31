@@ -1,0 +1,30 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle scaffolding",
+        "command": "scaffolding:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "scaffolding",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "scaffolding:toggle"
+            },
+            {
+              "label": "Edit",
+              "command": "scaffolding:edit"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

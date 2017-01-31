@@ -1,0 +1,35 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+h1 {
+  margin: 5px;
+  font-size: 1em;
+}
+.scaffolding {
+  width: auto;
+  position: relative;
+}
+.list-group {
+  margin: 5px 12px;
+  li {
+    cursor: pointer;
+  }
+}
+.edit-icon {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  button {
+    background-color: @tree-view-background-color;
+    border: 0px;
+    color: @text-color;
+    &hover {
+      color: @text-color-highlight;
+      background-color: @background-color-highlight;
+
+    }
+  }
+}

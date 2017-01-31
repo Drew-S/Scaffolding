@@ -1,0 +1,22 @@
+{
+  "name": "scaffolding",
+  "main": "./lib/scaffolding",
+  "version": "0.0.0",
+  "description": "A scaffolding package for quickly generating new project files and directories",
+  "keywords": [
+    "scaffolding",
+    "hierarchy",
+    "folder",
+    "file"
+  ],
+  "activationCommands": {
+    "atom-workspace": "scaffolding:toggle"
+  },
+  "repository": "https://github.com/Drew-S/scaffolding",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
