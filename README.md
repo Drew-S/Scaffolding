@@ -59,3 +59,7 @@ Toggle scaffolding panel:
 ```
 "ctrl-alt-o": "scaffolding:toggle"
 ```
+
+### project
+
+at [https://github.com/Drew-S/Scaffolding](https://github.com/Drew-S/Scaffolding)

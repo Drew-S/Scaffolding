@@ -12,7 +12,7 @@
   "activationCommands": {
     "atom-workspace": "scaffolding:toggle"
   },
-  "repository": "https://github.com/Drew-S/Scaffolding",
+  "repository": "https://github.com/atom/scaffolding",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
