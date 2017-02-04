@@ -1,7 +1,7 @@
 {
   "name": "scaffolding",
   "main": "./lib/scaffolding",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A scaffolding package for quickly generating new project files and directories",
   "keywords": [
     "scaffolding",
