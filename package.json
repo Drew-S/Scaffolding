@@ -10,7 +10,11 @@
     "file"
   ],
   "activationCommands": {
-    "atom-workspace": "scaffolding:toggle"
+    "atom-workspace": [
+      "scaffolding:toggle",
+      "scaffolding:edit",
+      "scaffolding:test"
+    ]
   },
   "repository": "https://github.com/Drew-S/Scaffolding",
   "license": "MIT",

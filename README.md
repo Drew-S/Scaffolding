@@ -2,7 +2,7 @@
 
 Scaffolding is a package used to create a project folder and file hierarchy with the click of a button.
 
-![Scaffolding](/preview/preview.png)
+![Scaffolding](https://github.com//Drew-S/Scaffolding/blob/69f4b9a8e7b0f616c00586a4839c85971ad7d303/preview/preview.png)
 
 Added a separate file hierarchy system for splitting the main file up into smaller files for better management.
 

@@ -1,0 +1,32 @@
+[
+  {
+    name: "Test hierarchy"
+    root: [
+      {
+        type: "dir"
+        name: "public"
+        root: [
+          {
+            type: "dir"
+            name: "empty"
+          }
+          {
+            type: "file"
+            name: "css.css"
+          }
+        ]
+      }
+      {
+        type: "dir"
+        name: "empty"
+      }
+      {
+        type: "file"
+        name: "with_contents.js"
+        contents: '''
+          example content
+        '''
+      }
+    ]
+  }
+]
